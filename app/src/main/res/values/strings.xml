@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PAC_UF2_CamposMartiJuanIgnacio</string>
+    <string name="btnPlay">Play</string>
+    <string name="btnStop">Stop</string>
+    <string name="btnActivity2">Activity 2</string>
+    <string name="btnActivity3">Activity 3</string>
+    <string name="btnActivity4">Activity 4</string>
+    <string name="txtReproductorMusica">¡Reproduce tu música!</string>
+    <string name="etIdPlanta">ID de planta</string>
+    <string name="titleActivity2">REGISTRO DE PLANTAS</string>
+    <string name="nombrePlanta">Nombre de la planta</string>
+    <string name="precioPlanta">Precio</string>
+    <string name="crear_tabla">Crear tabla</string>
+    <string name="insertar_datos">Insertar datos</string>
+    <string name="consultar_datos">Consultar datos</string>
+    <string name="inicio">Inicio</string>
+    <string name="hacer_foto">Hacer foto</string>
+    <string name="foto_hecha_por_el_usuario">Foto hecha por el usuario</string>
+</resources>

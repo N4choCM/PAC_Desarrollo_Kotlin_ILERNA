@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#c6b1c9"
+    tools:context=".Activity4">
+
+    <Button
+        android:id="@+id/btnInicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="80dp"
+        android:backgroundTint="#fcba02"
+        android:text="@string/inicio"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="80dp"
+        >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="25dp">
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="25dp"
+                >
+
+                <ImageView
+                    android:padding="5dp"
+                    android:id="@+id/img1"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:srcCompat="@drawable/img1" />
+
+                <ImageView
+                    android:padding="5dp"
+                    android:id="@+id/img2"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:srcCompat="@drawable/img2" />
+
+                <ImageView
+                    android:padding="5dp"
+                    android:id="@+id/img3"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:srcCompat="@drawable/img3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="25dp"
+                >
+
+                <ImageView
+                    android:padding="5dp"
+                    android:id="@+id/img4"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:srcCompat="@drawable/img4" />
+
+                <ImageView
+                    android:padding="5dp"
+                    android:id="@+id/img5"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:srcCompat="@drawable/img5" />
+
+                <ImageView
+                    android:padding="5dp"
+                    android:id="@+id/img6"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:srcCompat="@drawable/img6" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>
+
+</LinearLayout>
